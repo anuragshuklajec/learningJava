@@ -3,11 +3,13 @@ public class TypeConvertion {
         int a = 12;
         byte b = 127;
         b = (byte)a; /* will not work without explicit type casting */
+        System.out.println(b);
 
         // implcit type casting
         byte c = 127;
         int d = 234;
         d = c;
+        System.out.println(d);
 
         // Assigning value of double 5.6 to integer
         float f = 5.6f;
